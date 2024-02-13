@@ -2,9 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+  const list = ['Guilherme Artigas', 'Rafaela'];
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      {list.map((name, i) => <Text key={i}>{name}</Text>)}
+      {/*<Text>Guilherme Artigas</Text>*/}
+      {/*<Text>Guilherme Artigas</Text>*/}
       <StatusBar style="auto" />
     </View>
   );
