@@ -19,7 +19,7 @@ export default function SignIn() {
 
         <Text style={styles.title}>Senha:</Text>
         <TextInput
-          placeholder="Digite uma senha"
+          placeholder="Digite uma senha..."
           style={styles.input}
         />
 
