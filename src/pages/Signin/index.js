@@ -11,13 +11,13 @@ export default function SignIn() {
 
       <Animatable.View animation="fadeInUp" style={styles.containerForm}>
 
-        <Text style={styles.title}>Email:</Text>
+        <Text style={styles.title}>Email</Text>
         <TextInput
           placeholder="Digite um email..."
           style={styles.input}
         />
 
-        <Text style={styles.title}>Senha:</Text>
+        <Text style={styles.title}>Senha</Text>
         <TextInput
           placeholder="Digite uma senha..."
           style={styles.input}
