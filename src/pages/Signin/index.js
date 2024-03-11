@@ -17,7 +17,7 @@ export default function SignIn() {
           style={styles.input}
         />
 
-        <Text style={styles.title}>Senha</Text>
+        <Text style={styles.title}>Senha:</Text>
         <TextInput
           placeholder="Digite uma senha..."
           style={styles.input}
