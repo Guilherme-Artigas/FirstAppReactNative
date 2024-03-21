@@ -13,7 +13,7 @@ export default function SignIn() {
 
         <Text style={styles.title}>E-mail</Text>
         <TextInput
-          placeholder="Digite um email..."
+          placeholder="Digite um email"
           style={styles.input}
         />
 
