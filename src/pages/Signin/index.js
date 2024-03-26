@@ -11,7 +11,7 @@ export default function SignIn() {
 
       <Animatable.View animation="fadeInUp" style={styles.containerForm}>
 
-        <Text style={styles.title}>E-mail.</Text>
+        <Text style={styles.title}>E-mail</Text>
         <TextInput
           placeholder="Digite um email"
           style={styles.input}
